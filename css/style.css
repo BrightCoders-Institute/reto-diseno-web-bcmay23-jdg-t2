@@ -1,0 +1,9 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.btn-started {
+    background-color: rgb(247, 0, 185);
+}
+.bg-mobile {
+    background-image: url("img/bg-hero-mobile.svg");
+    background-color: hsl(193, 100%, 96%)
+}
