@@ -1,9 +1,40 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 .btn-started {
-    background-color: rgb(247, 0, 185);
+    background-color: hsl(322, 100%, 66%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
 }
 .bg-mobile {
-    background-image: url("img/bg-hero-mobile.svg");
-    background-color: hsl(193, 100%, 96%)
+    background-image: url("/img/bg-hero-mobile.svg");
+    background-color: hsl(193, 100%, 96%); 
 }
+
+body{
+    font-size: 17px;
+    color: hsl(192, 100%, 9%);
+}
+
+.card-mobile {
+    margin-top: 6%;
+    border: 0;
+}
+
+.card-header {
+    font-family: '';
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: hsl(192, 100%, 9%);
+}
+
+.p-cards{
+    color: hsl(208, 11%, 55%);
+    margin-top: 7px;
+    margin-bottom: 70px;
+
+}
+
