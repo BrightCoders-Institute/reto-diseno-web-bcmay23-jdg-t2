@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -7,6 +21,14 @@
     color: hsl(228, 45%, 44%);
 }
 
+.btn-try {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-try:hover {
+    color: hsl(208, 11%, 55%);
+}
+
 .btn-started {
     background-color: hsl(322, 100%, 66%);
     font-family: 'Poppins', sans-serif;
@@ -14,73 +36,48 @@
     font-weight: 600;
 }
 
+.btn-started:hover {
+    background-color: hsl(322, 100%, 80%);
+}
+
 .bg-mobile {
     background-image: url("/img/bg-hero-mobile.svg");
     background-color: hsl(193, 100%, 96%);
 }
 
-body {
-    font-size: 17px;
-    color: hsl(192, 100%, 9%);
+.card-mobile {
+    border: 0;
 }
 
-.card-mobile {
-    margin-top: 6%;
-    border: 0;
+.card-mobile p {
+    color: hsl(208, 11%, 55%);
 }
 
 .card-mobile2 {
     border: 0;
     position: relative;
-    top: 115px;
+    top: 100px;
 }
 
-.card-header {
-    font-family: '';
-}
-
-h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    color: hsl(192, 100%, 9%);
-}
-
-.p-cards {
-    color: hsl(208, 11%, 55%);
-    margin-top: 7px;
-    margin-bottom: 70px;
-
-}
-
-h3 {
-    font-size: 15px;
-    font-weight: 700;
-    color: hsl(192, 100%, 9%);
-    ;
-}
-
-.btn-bottom {
-    font-size: 12px;
-    font-weight: 600;
-}
 footer{
     background-color: hsl(192, 100%, 9%);
+}
 
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+footer a {
+    text-decoration: none;
+    color: white;
     font-size: 20px;
+}
+
+.footer-copy {
+    font-size: 16px;
 }
 
 .footer-mobile{
     padding-top: 150px;
 }
 
-footer a {
-    text-decoration: none;
-    color: white;
-    font-size: 24px;
-}
-
-.footer-copy {
-    font-size: 14px;
+.social-icon {
+    margin-right: 10px;
+    width: 40px;
 }
