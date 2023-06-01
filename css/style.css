@@ -64,12 +64,23 @@ h3 {
     font-weight: 600;
 }
 footer{
-    background-color: gray;
-    height: 500px;
+    background-color: hsl(192, 100%, 9%);
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .footer-mobile{
-    position: relative;
-    top: 160px;
+    padding-top: 150px;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.footer-copy {
+    font-size: 14px;
+}
