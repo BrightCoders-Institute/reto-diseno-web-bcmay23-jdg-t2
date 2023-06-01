@@ -64,6 +64,12 @@ h3 {
     font-weight: 600;
 }
 footer{
-    background-color: black;
-    height: 100px;
+    background-color: gray;
+    height: 500px;
 }
+
+.footer-mobile{
+    position: relative;
+    top: 160px;
+}
+
