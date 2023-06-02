@@ -32,8 +32,9 @@ h2 {
 }
 
 .bg-mobile {
-  background-image: url("/img/bg-hero-mobile.svg");
+  background-image: url("/img/bg-hero-desktop.svg");
   background-color: hsl(193, 100%, 96%);
+  background-repeat: no-repeat;
   position: relative;
   padding-top: 100px;
   top: -100px;
