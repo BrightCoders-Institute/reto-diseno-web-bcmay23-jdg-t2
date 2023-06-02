@@ -1,74 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700");
 
 body {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 h2 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .btn-try {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn-try:hover {
-    color: hsl(208, 11%, 55%);
+  color: hsl(208, 11%, 55%);
 }
 
 .btn-started {
-    background-color: hsl(322, 100%, 66%);
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
+  background-color: hsl(322, 100%, 66%);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .btn-started:hover {
-    background-color: hsl(322, 100%, 80%);
+  background-color: hsl(322, 100%, 80%);
 }
 
 .bg-mobile {
-    background-image: url("/img/bg-hero-mobile.svg");
-    background-color: hsl(193, 100%, 96%);
+  background-image: url("/img/bg-hero-mobile.svg");
+  background-color: hsl(193, 100%, 96%);
+  position: relative;
+  padding-top: 100px;
+  top: -100px;
 }
 
 .card-mobile {
-    border: 0;
+  border: 0;
 }
 
 .card-mobile p {
-    color: hsl(208, 11%, 55%);
+  color: hsl(208, 11%, 55%);
 }
 
 .card-mobile2 {
-    border: 0;
-    position: relative;
-    top: 120px;
+  border: 0;
+  position: relative;
+  top: 120px;
 }
 
-footer{
-    background-color: hsl(192, 100%, 9%);
+footer {
+  background-color: hsl(192, 100%, 9%);
 }
 
 footer a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .footer-copy {
-    font-size: 16px;
+  font-size: 16px;
 }
 
-.footer-mobile{
-    padding-top: 150px;
+.footer-mobile {
+  padding-top: 150px;
 }
 
 .social-icon {
-    margin-right: 10px;
-    width: 40px;
+  margin-right: 10px;
+  width: 40px;
+}
+
+nav {
+  z-index: 1;
 }
